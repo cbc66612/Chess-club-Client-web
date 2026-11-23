@@ -94,6 +94,55 @@
             </select>
           </div>
 
+          <div class="mb-3">
+  <label for="email" class="form-label">Email</label>
+  <input type="email" class="form-control"
+         id="email" name="email"
+         placeholder="Enter your email" required>
+     </div>
+
+       <div class="mb-3">
+       <label for="phone" class="form-label">
+         Phone Number (optional)
+     </label>
+  <input type="tel" class="form-control"
+         id="phone" name="phone"
+         placeholder="Enter your phone number">
+      </div>
+
+     <div class="mb-3">
+    <label for="experience" class="form-label">
+       Chess Experience
+     </label>
+
+  <select class="form-select" id="experience"
+          name="experience" required>
+    <option value="" selected disabled>Select your level</option>
+    <option value="new">I am new to chess</option>
+    <option value="beginner">I know the basic rules</option>
+    <option value="intermediate">I play regularly</option>
+    <option value="experienced">I have tournament experience</option>
+  </select>
+</div>
+
+<div class="mb-3">
+  <label for="otb-rating" class="form-label">
+    Over-the-Board Rating (optional)
+  </label>
+  <input type="text" class="form-control"
+         id="otb-rating" name="otb_rating"
+         placeholder="Example: USCF 1200. Leave blank if unrated.">
+</div>
+
+<div class="mb-3">
+  <label for="online-rating" class="form-label">
+    Online Rating (optional)
+  </label>
+  <input type="text" class="form-control"
+         id="online-rating" name="online_rating"
+         placeholder="Example: Chess.com rapid 1200">
+</div>
+
           <button type="submit" class="btn join-button" disabled>
             Submit
           </button>
